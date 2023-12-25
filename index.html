@@ -537,10 +537,21 @@
 
 <body id="body" class="relative">
   <main id="main"> <!-- 首页 -->
-    <section class="relative box1">
+    <section class="d-md-none">
       <img src="static/img/left.png" class="object-left" loading="lazy">
-      <img src="static/img/left_tr.png" class="absolute top-0 right-[60px]" loading="lazy">
-      <div class="absolute top-[357px] right-[167px]">
+      <div class="row py-4">
+        <div class="col-8 m-auto">
+          <img src="static/img/logo.png" class="py-2" loading="lazy">
+          <img src="static/img/fragment1/title.png" class="py-3 w-52 m-auto">
+          <img src="static/img/fragment1/subtitle.png" class="py-2">
+        </div>
+      </div>
+    </section>
+    <section class="relative box1 d-none d-md-block">
+      <img src="static/img/left.png" class="object-left" loading="lazy">
+      <!-- <img src="static/img/left_tr.png" class="absolute top-0 right-[60px]" loading="lazy"> -->
+      <div class="absolute " style="right: 1vw; top: 30%;">
+        <!-- <div class="absolute top-[357px] right-[167px]"> -->
         <img src="static/img/logo.png" class="z-10 to-down pl-[95px]" loading="lazy">
         <img src="static/img/fragment1/title.png" class="to-up mt-[74px] pl-[95px] ">
         <img src="static/img/fragment1/subtitle.png" class="to-up mt-[15px]">
