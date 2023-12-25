@@ -11,13 +11,17 @@
   <link rel="stylesheet" href="static/css/swiper-bundle.min.css">
   <meta name="generator" content="Astro v4.0.5">
   <title>亞昕一緻</title>
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <script src="static/js/index.js" type="text/javascript" charset="utf-8"></script>
   <link rel="stylesheet" href="static/index.4se6qoGb.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap"
+    rel="stylesheet">
 
 </head>
 <style>
@@ -48,20 +52,25 @@
     font-weight: 700;
   }
 
-  
+
 
   body {
     background-image: url('static/img/repeat2.jpg');
-    background-repeat: cover;
+    /* background-repeat:repeat; */
+    /* background-repeat: cover; */
+    background-size: auto;
     font-family: "Noto Serif TC", serif !important;
   }
 
-  .n-family{
+  .n-family {
     font-family: 微軟正黑體, "Microsoft JhengHei", sans-serif !important;
 
   }
 
-  .font-din, .font-koz, .font-noto , .font-noto2 {
+  .font-din,
+  .font-koz,
+  .font-noto,
+  .font-noto2 {
     font-family: 'Noto Serif TC', serif !important;
 
   }
@@ -88,6 +97,7 @@
     color: #fff;
     top: -1.5rem;
   }
+
   .box4 .d3 {
     position: absolute;
     bottom: 0;
@@ -95,6 +105,7 @@
     font-size: .7rem;
     color: #fff;
   }
+
   .box5 .d3 {
     position: absolute;
     bottom: 0;
@@ -117,19 +128,19 @@
   .box8 .lg\:px-\[130px\] {
     padding-left: 0;
     padding-right: 0;
-}
+  }
 
-.box8 .lg\:px-\[185px\] {
+  .box8 .lg\:px-\[185px\] {
     padding-left: 160px;
     padding-right: 160px;
-}
+  }
 
 
-.box8 .text-right {
+  .box8 .text-right {
     text-align: left;
     font-size: 18px;
     letter-spacing: -0.5px;
-}
+  }
 
   .box6 .d3 {
     position: relative;
@@ -166,22 +177,23 @@
   }
 
   .br-nowrap {
-      white-space: nowrap !important;
-    }
+    white-space: nowrap !important;
+  }
 
-    .text-\[28px\] {
-      font-size: 24px;
-      font-weight: 600;
-    }
+  .text-\[28px\] {
+    font-size: 24px;
+    font-weight: 600;
+  }
 
 
 
   @media screen and (max-width: 1024px) {
 
-    
+
     .br-nowrap {
       white-space: wrap !important;
     }
+
     .h-96 {
       height: 24rem;
     }
@@ -239,11 +251,11 @@
     }
 
     .box8 .lg\:px-\[185px\] {
-    padding-left: 50px;
-    padding-right: 50px;
-}
+      padding-left: 50px;
+      padding-right: 50px;
+    }
 
-.box8 .grid {
+    .box8 .grid {
       display: block;
     }
 
@@ -300,7 +312,7 @@
     }
 
 
-    
+
 
     .text-\[26px\] {
       font-size: 16px;
@@ -451,7 +463,7 @@
       padding-right: 0;
     }
 
-    
+
 
     .box8 .gap-x-3 {
       -moz-column-gap: 0;
@@ -517,14 +529,22 @@
 
   }
 </style>
+<style>
+  .bg_blue {
+    background: #ffffff6f;
+  }
+</style>
 
 <body id="body" class="relative">
   <main id="main"> <!-- 首页 -->
-    <section class="relative box1"> <img src="static/img/left.png" class="object-left" loading="lazy"> <img
-        src="static/img/left_tr.png" class="absolute top-0 right-[60px]" loading="lazy">
-      <div class="absolute top-[357px] right-[167px] "> <img src="static/img/logo.png" class="z-10 to-down pl-[95px]"
-          loading="lazy"> <img src="static/img/fragment1/title.png" class="to-up mt-[74px] pl-[95px] "><img
-          src="static/img/fragment1/subtitle.png" class="to-up mt-[15px]"> </div>
+    <section class="relative box1">
+      <img src="static/img/left.png" class="object-left" loading="lazy">
+      <img src="static/img/left_tr.png" class="absolute top-0 right-[60px]" loading="lazy">
+      <div class="absolute top-[357px] right-[167px]">
+        <img src="static/img/logo.png" class="z-10 to-down pl-[95px]" loading="lazy">
+        <img src="static/img/fragment1/title.png" class="to-up mt-[74px] pl-[95px] ">
+        <img src="static/img/fragment1/subtitle.png" class="to-up mt-[15px]">
+      </div>
     </section> <!-- 空拍大景 -->
     <section class="w-full flex flex-col justify-center pb-24 pt-24 box2">
       <!-- <div class="w-full flex flex-row justify-between items-center p-10 space-y-8"> <img src="static/img/logo.png"
@@ -543,7 +563,8 @@
           <span class="d3">建築3D外觀合成示意圖
           </span>
         </div>
-        <div class="flex justify-center mt-20 title"> <img src="static/img/fragment2/title.png" class="img-title">
+        <div class="flex justify-center mt-20 title">
+          <img src="static/img/fragment2/title.png" class="img-title w-75">
           <p class="p-title">全能軸心 經驗跨越<br>最美仁平段 眼光有緻一同</p>
         </div>
         <p class="text-center text-lg mt-6 line1 n-family">
@@ -602,21 +623,24 @@
       <div class="flex justify-center mt-16 title"> <img src="static/img/fragment3/title.png" class="img-title">
         <p class="p-title">跨足國際 宏觀全面<br>職人核心三十年 生活美學推手</p>
       </div>
-      <p class="text-center text-lg mt-6 line1 n-family">橫跨建築、營造、室內設計、精密工業、飯店、商場、<br>公益環保等全方位觸角，亞昕集團（上櫃股票代號：5213）<br>用多角化企業、全球化經營版圖，以眼界走入國際，將世界帶回建築，從建築走進生活。</p>
+      <p class="text-center text-lg mt-6 line1 n-family">
+        橫跨建築、營造、室內設計、精密工業、飯店、商場、<br>公益環保等全方位觸角，亞昕集團（上櫃股票代號：5213）<br>用多角化企業、全球化經營版圖，以眼界走入國際，將世界帶回建築，從建築走進生活。</p>
     </section> <!-- 美學宜居 -->
 
     <section class="w-full mb-[130px] box4">
       <div class="px-[90px] mx-auto">
         <div class="w-full relative flex justify-center"> <img src="static/img/fragment4/img.jpg"
-            class="w-full object-cover object-top" loading="lazy"> 
-            <span class="d3">宜居陽台3D模擬示意圖</span><span
+            class="w-full object-cover object-top" loading="lazy">
+          <span class="d3">宜居陽台3D模擬示意圖</span><span
             class=" font-didot text-6xl lg:text-[125px] absolute top-[48px] tracking-tighter uppercase text-white opacity-40">green
             building</span> <span class=" font-didot text-[40px] absolute top-[163px] uppercase text-white">The
-            most beautiful Taichung</span> </div>
+            most beautiful Taichung</span>
+        </div>
         <div class="flex justify-center mt-8 mb-2 title"> <img src="static/img/fragment4/title.png" class="img-title">
           <p class="p-title" style="font-size: 22px;">光波建築 交織美學<br>百米面寬 城心裡<br>最值得佇足的宜居風景</p>
         </div>
-        <p class="text-center text-lg line1 n-family">不只縱橫，更懂圓融。對應日陽，動態眼光，<br class="br-nowrap">創造建築更豐富的層次表情；宜居陽台，交織風華，</p>
+        <p class="text-center text-lg line1 n-family">不只縱橫，更懂圓融。對應日陽，動態眼光，<br class="br-nowrap">創造建築更豐富的層次表情；宜居陽台，交織風華，
+        </p>
         <p class="text-center text-lg line2 n-family">巧妙留下大樹向天空對話的高度空間，<br class="br-nowrap">更顯光影語彙的共舞趣味。</p>
       </div>
     </section> <!-- 優雅泳池 -->
@@ -626,19 +650,20 @@
         <div class="w-full relative flex justify-center"> <img src="static/img/fragment5/img.jpg"
             class="w-full object-cover object-top" loading="lazy"> <span class="d3">城心泳池3D模擬示意圖</span><span
             class=" font-didot text-6xl lg:text-[125px] absolute top-[48px] uppercase text-white">swimming
-            pool</span> <span
-            class=" font-didot text-[40px] absolute top-32 lg:top-[163px] uppercase text-white">The most
+            pool</span> <span class=" font-didot text-[40px] absolute top-32 lg:top-[163px] uppercase text-white">The
+            most
             beautiful Taichung</span> </div>
         <div class="flex justify-center mt-8 mb-2 title"> <img src="static/img/fragment5/title.png" class="img-title">
           <p class="p-title">城心泳池 鏡光水影<br>茶屋 花園 泳池<br>最懂生活的愜意步履</p>
         </div>
-        <p class="line1 text-center text-lg n-family">快城市的慢調味，相遇念念不忘的輕井澤；<br class="br-nowrap">以時為茗，以光為迎，一處森林泳池徜徉城心，<br class="br-nowrap">只以您至上的私房漫意。</p>
+        <p class="line1 text-center text-lg n-family">快城市的慢調味，相遇念念不忘的輕井澤；<br class="br-nowrap">以時為茗，以光為迎，一處森林泳池徜徉城心，<br
+            class="br-nowrap">只以您至上的私房漫意。</p>
       </div>
     </section> <!-- 國際團隊 -->
-    
-    
-    
-    
+
+
+
+
     <section class="w-full box6">
       <!-- <div class="w-full flex flex-row justify-between items-center p-10 space-y-8"> <img src="static/img/logo.png"
           width="260" class="header-left">
@@ -648,7 +673,7 @@
       </div> -->
       <swiper-container pagination="true" navigation="true" class="px-[90px] mx-auto"> <swiper-slide> <img
             src="static/img/fragment6/img1.jpg" class="w-full object-cover object-top"><span class="d3">東京巨蛋實景修飾圖
-            </span>
+          </span>
           <div class="grid grid-cols-3 py-24">
             <div class="col-span-2 flex flex-col justify-center items-center pd-lr">
               <div class="flex justify-center mb-10"> <img src="static/img/fragment6/s_img1.png" width="650"></div>
@@ -661,24 +686,25 @@
             <div class="flex justify-center"> <img src="static/img/fragment6/子網團隊p1png.png" class="h-96" loading="lazy">
             </div>
           </div>
-        </swiper-slide> 
+        </swiper-slide>
         <swiper-slide> <img src="static/img/fragment6/img4.jpg" class="w-full object-cover object-top"
-          loading="lazy"><span class="d3">漢宇雲森建築3D外觀合成示意圖
+            loading="lazy"><span class="d3">漢宇雲森建築3D外觀合成示意圖
           </span>
-        <div class="grid grid-cols-3 py-24">
-          <div class="col-span-2 flex flex-col justify-center items-center pd-lr">
-            <div class="flex justify-center mb-10"> <img src="static/img/fragment6/s_img2.png" width="650"> </div>
-            <div class="flex justify-center"> <img src="static/img/fragment6/title4.png" width="800"
-                class="img-title">
-              <p class="p-title">台中都市空間設計大獎得主<br>建築師 | 許獻叡</p>
+          <div class="grid grid-cols-3 py-24">
+            <div class="col-span-2 flex flex-col justify-center items-center pd-lr">
+              <div class="flex justify-center mb-10"> <img src="static/img/fragment6/s_img2.png" width="650"> </div>
+              <div class="flex justify-center"> <img src="static/img/fragment6/title4.png" width="800"
+                  class="img-title">
+                <p class="p-title">台中都市空間設計大獎得主<br>建築師 | 許獻叡</p>
+              </div>
+              <p class="text-lg mt-6 px-32 text-center n-family">多座都市空間設計大獎、中華建築金石獎的榮耀得主，為「亞昕一緻」創劃更多精彩不同的築景之藝。</p><br>
             </div>
-            <p class="text-lg mt-6 px-32 text-center n-family">多座都市空間設計大獎、中華建築金石獎的榮耀得主，為「亞昕一緻」創劃更多精彩不同的築景之藝。</p><br>
+            <div class="flex justify-center"> <img src="static/img/fragment6/子網團隊p2.jpg" class="h-96" loading="lazy">
+            </div>
           </div>
-          <div class="flex justify-center"> <img src="static/img/fragment6/子網團隊p2.jpg" class="h-96" loading="lazy">
-          </div>
-        </div>
-      </swiper-slide><swiper-slide> <img src="static/img/fragment6/img2.jpg" class="w-full object-cover object-top"><span class="d3">精銳博公設實景
-      </span>
+        </swiper-slide><swiper-slide> <img src="static/img/fragment6/img2.jpg"
+            class="w-full object-cover object-top"><span class="d3">精銳博公設實景
+          </span>
           <div class="grid grid-cols-3 py-24">
             <div class="col-span-2 flex flex-col justify-center items-center pd-lr">
               <div class="flex justify-center mb-10"> <img src="static/img/fragment6/s_img3.png" width="650"><br> </div>
@@ -694,7 +720,7 @@
           </div>
         </swiper-slide> <swiper-slide> <img src="static/img/fragment6/img3.jpg" class="w-full object-cover object-top"
             loading="lazy"><span class="d3">雙橡園1617景觀實景
-            </span>
+          </span>
           <div class="grid grid-cols-3 py-24">
             <div class="col-span-2 flex flex-col justify-center items-center pd-lr">
               <div class="flex justify-center mb-10"> <img src="static/img/fragment6/s_img4.png" width="650"> </div>
@@ -702,7 +728,8 @@
                   class="img-title">
                 <p class="p-title">國際級設計金獎大師<br>上境景觀 | 許富居</p>
               </div>
-              <p class="text-lg mt-6 px-32 text-center n-family">德國紅點獎、美國MUSE白金獎、Good Design Award、IFLA APPME Awards、義大利A’
+              <p class="text-lg mt-6 px-32 text-center n-family">德國紅點獎、美國MUSE白金獎、Good Design Award、IFLA APPME
+                Awards、義大利A’
                 Design金獎…大師精髓，世界榮譽肯定。</p><br>
             </div>
             <div class="flex justify-center"> <img src="static/img/fragment6/子網團隊p4.jpg" class="h-96" loading="lazy">
