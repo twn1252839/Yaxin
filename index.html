@@ -533,6 +533,28 @@
   .bg_blue {
     background: #ffffff6f;
   }
+
+  .skyline_text {
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  .green_text {
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .skyline_text {
+      font-size: 32px;
+      line-height: 32px;
+    }
+
+    .green_text {
+      font-size: 40px;
+      line-height: 40px;
+    }
+  }
 </style>
 
 <body id="body" class="relative">
@@ -565,12 +587,14 @@
             class=" text-[26px] font-koz">國際級飯店體系｜三十年跨國集團</span> </div>
       </div> -->
       <div class="mx-auto px-[90px]">
-        <div class="w-full relative flex justify-center"> <img src="static/img/fragment2/img.jpg"
-            class="img w-full object-cover object-top" loading="lazy"> <span
-            class="heading1 font-didot text-6xl lg:text-[125px] absolute top-[46px] uppercase text-white">Taichung
-            skyline</span> <span
-            class="heading2 font-didot text-[40px] absolute top-32 lg:top-[162px] uppercase text-white">The most
-            beautiful Taichung</span>
+        <div class="w-full relative flex justify-center">
+          <img src="static/img/fragment2/img.jpg" class="img w-full object-cover object-top" loading="lazy">
+          <span class="heading1 font-didot skyline_text absolute top-[46px] uppercase text-white ">Taichung
+            skyline</span>
+          <span class="heading2 font-didot text-[40px] absolute top-32 lg:top-[62px] uppercase text-white">
+            The most beautiful Taichung
+          </span>
+
           <span class="d3">建築3D外觀合成示意圖
           </span>
         </div>
@@ -643,7 +667,7 @@
         <div class="w-full relative flex justify-center"> <img src="static/img/fragment4/img.jpg"
             class="w-full object-cover object-top" loading="lazy">
           <span class="d3">宜居陽台3D模擬示意圖</span><span
-            class=" font-didot text-6xl lg:text-[125px] absolute top-[48px] tracking-tighter uppercase text-white opacity-40">green
+            class=" font-didot green_text absolute top-[48px] tracking-tighter uppercase text-white opacity-40">green
             building</span> <span class=" font-didot text-[40px] absolute top-[163px] uppercase text-white">The
             most beautiful Taichung</span>
         </div>
@@ -660,7 +684,7 @@
       <div class="px-[90px] mx-auto">
         <div class="w-full relative flex justify-center"> <img src="static/img/fragment5/img.jpg"
             class="w-full object-cover object-top" loading="lazy"> <span class="d3">城心泳池3D模擬示意圖</span><span
-            class=" font-didot text-6xl lg:text-[125px] absolute top-[48px] uppercase text-white">swimming
+            class=" font-didot green_text absolute top-[48px] uppercase text-white">swimming
             pool</span> <span class=" font-didot text-[40px] absolute top-32 lg:top-[163px] uppercase text-white">The
             most
             beautiful Taichung</span> </div>
