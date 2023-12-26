@@ -540,8 +540,24 @@
   }
 
   .green_text {
-    font-size: 100px;
-    line-height: 100px;
+    font-size: 120px;
+    line-height: 120px;
+  }
+
+  .w_md_90 {
+    width: 90%;
+  }
+
+  .title_wid {
+    width: 650px;
+  }
+
+  .clothing_h {
+    height: 713px;
+  }
+
+  .box6_h {
+    height: auto;
   }
 
   @media screen and (max-width: 768px) {
@@ -554,6 +570,29 @@
       font-size: 40px;
       line-height: 40px;
     }
+
+    .w_md_90 {
+      width: 100%;
+    }
+
+    .title_wid {
+      width: 260px;
+    }
+
+    .clothing_h {
+      height: 212px;
+    }
+
+    .box6_h {
+      height: 90vh;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .py-md-5 {
+      padding-top: 6rem !important;
+      padding-bottom: 6rem !important;
+    }
   }
 </style>
 
@@ -561,12 +600,10 @@
   <main id="main"> <!-- 首页 -->
     <section class="d-md-none">
       <img src="static/img/Frame9.png" class="object-left" loading="lazy">
-      <div class="row py-2">
-        <div class="col-8 m-auto">
-          <img src="static/img/logo.png" class="py-2" loading="lazy">
-          <img src="static/img/fragment1/title.png" class="py-3 w-52 m-auto">
-          <img src="static/img/fragment1/subtitle.png" class="py-2">
-        </div>
+      <div class="py-2 m-auto w-75">
+        <img src="static/img/logo.png" class="py-2 m-auto" loading="lazy">
+        <img src="static/img/fragment1/title.png" class="py-3 w-52 m-auto">
+        <img src="static/img/fragment1/subtitle.png" class="py-2">
       </div>
     </section>
     <section class="relative box1 d-none d-md-block">
@@ -589,9 +626,9 @@
       <div class="mx-auto px-[90px]">
         <div class="w-full relative flex justify-center">
           <img src="static/img/fragment2/img.jpg" class="img w-full object-cover object-top" loading="lazy">
-          <span class="heading1 font-didot skyline_text absolute top-[46px] uppercase text-white ">Taichung
+          <span class=" font-didot skyline_text absolute top-[46px] uppercase text-white ">Taichung
             skyline</span>
-          <span class="heading2 font-didot text-[40px] absolute top-32 lg:top-[62px] uppercase text-white">
+          <span class=" font-didot text-[40px] absolute top-32 lg:top-[62px] uppercase text-white">
             The most beautiful Taichung
           </span>
 
@@ -603,7 +640,9 @@
           <p class="p-title">全能軸心 經驗跨越<br>最美仁平段 眼光有緻一同</p>
         </div>
         <p class="text-center text-lg mt-6 line1 n-family">
-          濃厚生態綠意、崇德繁華商圈、文心便捷機能、捷運增值效率、<br>國際級雙語學區...「亞昕一緻」佇立軸心，<br>正以十四期仁平段最優美的地利價值，<br>跨閱令人驚豔的全能之境，緻在其中，慧眼知遇。
+          濃厚生態綠意、崇德繁華商圈、文心便捷機能、
+          <br class="d-md-none">捷運增值效率、<br class="d-md-none">國際級雙語學區...「亞昕一緻」佇立軸心，<br>正以十四期仁平段最優美的地利價值，<br
+            class="d-md-none">跨閱令人驚豔的全能之境，緻在其中，慧眼知遇。
         </p>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-32 px-24 mt-[106px] pd-lr">
           <div class="flex flex-col items-center "> <img src="static/img/fragment2/safenpu.jpg" loading="lazy"
@@ -659,7 +698,8 @@
         <p class="p-title">跨足國際 宏觀全面<br>職人核心三十年 生活美學推手</p>
       </div>
       <p class="text-center text-lg mt-6 line1 n-family">
-        橫跨建築、營造、室內設計、精密工業、飯店、商場、<br>公益環保等全方位觸角，亞昕集團（上櫃股票代號：5213）<br>用多角化企業、全球化經營版圖，以眼界走入國際，將世界帶回建築，從建築走進生活。</p>
+        橫跨建築、營造、室內設計、精密工業、飯店、商場、<br class="d-md-none">公益環保等全方位觸角，亞昕集團（上櫃股票代號：5213）<br>用多角化企業、全球化經營版圖，以眼界走入國際<br
+          class="d-md-none">將世界帶回建築，從建築走進生活。</p>
     </section> <!-- 美學宜居 -->
 
     <section class="w-full mb-[130px] box4">
@@ -672,11 +712,11 @@
             most beautiful Taichung</span>
         </div>
         <div class="flex justify-center mt-8 mb-2 title"> <img src="static/img/fragment4/title.png" class="img-title">
-          <p class="p-title" style="font-size: 22px;">光波建築 交織美學<br>百米面寬 城心裡<br>最值得佇足的宜居風景</p>
+          <p class="p-title" style="font-size: 22px;">光波建築 交織美學<br class="d-md-none">百米面寬 城心裡<br>最值得佇足的宜居風景</p>
         </div>
-        <p class="text-center text-lg line1 n-family">不只縱橫，更懂圓融。對應日陽，動態眼光，<br class="br-nowrap">創造建築更豐富的層次表情；宜居陽台，交織風華，
+        <p class="text-center text-lg line1 n-family">不只縱橫，更懂圓融。對應日陽，動態眼光，<br class="d-md-none">創造建築更豐富的層次表情；宜居陽台，交織風華，
         </p>
-        <p class="text-center text-lg line2 n-family">巧妙留下大樹向天空對話的高度空間，<br class="br-nowrap">更顯光影語彙的共舞趣味。</p>
+        <p class="text-center text-lg line2 n-family">巧妙留下大樹向天空對話的高度空間，<br class="d-md-none">更顯光影語彙的共舞趣味。</p>
       </div>
     </section> <!-- 優雅泳池 -->
 
@@ -691,8 +731,8 @@
         <div class="flex justify-center mt-8 mb-2 title"> <img src="static/img/fragment5/title.png" class="img-title">
           <p class="p-title">城心泳池 鏡光水影<br>茶屋 花園 泳池<br>最懂生活的愜意步履</p>
         </div>
-        <p class="line1 text-center text-lg n-family">快城市的慢調味，相遇念念不忘的輕井澤；<br class="br-nowrap">以時為茗，以光為迎，一處森林泳池徜徉城心，<br
-            class="br-nowrap">只以您至上的私房漫意。</p>
+        <p class="line1 text-center text-lg n-family">快城市的慢調味，相遇念念不忘的輕井澤；<br class="d-md-none">以時為茗，以光為迎，一處森林泳池徜徉城心，<br
+            class="d-md-none">只以您至上的私房漫意。</p>
       </div>
     </section> <!-- 國際團隊 -->
 
@@ -706,68 +746,47 @@
             class="text-[28px] font-koz font-bold tracking-widest">帶世界 回台中 </span> <span
             class=" text-[26px] font-koz">國際級飯店體系｜三十年跨國集團</span> </div>
       </div> -->
-      <swiper-container pagination="true" navigation="true" class="px-[90px] mx-auto"> <swiper-slide> <img
-            src="static/img/fragment6/img1.jpg" class="w-full object-cover object-top"><span class="d3">東京巨蛋實景修飾圖
+      <swiper-container pagination="true" navigation="true" space-between="30" slides-per-view="auto"
+        pagination-clickable="true" class="px-[90px] mx-auto box6_h">
+        <swiper-slide class="w_md_90">
+          <img src="static/img/fragment6/img1.jpg" class="w-full object-cover object-top"><span class="d3">東京巨蛋實景修飾圖
           </span>
-          <div class="grid grid-cols-3 py-24">
+          <div class="grid grid-cols-3 py-24 py-0 py-md-5" style="margin-top: -35px;">
             <div class="col-span-2 flex flex-col justify-center items-center pd-lr">
-              <div class="flex justify-center mb-10"> <img src="static/img/fragment6/s_img1.png" width="650"></div>
-              <div class="flex justify-center"> <img src="static/img/fragment6/title1.png" class="img-title">
-                <p class="p-title">五十年資歷日系職人<br>工程師顧問 | 田中純夫</p>
+              <div class="flex justify-center mb-6">
+                <img class="title_wid d-none d-md-block" src="static/img/fragment6/s_img1.png">
+                <!-- <img class="d-none d-md-block" src="static/img/fragment6/s_img1.png" width="650">
+                <img class="d-md-none" src="static/img/fragment6/s_img1.png" width="260"> -->
               </div>
-              <p class="line1 text-lg mt-6 px-32 text-center n-family">
+              <div class="flex justify-center"> <img src="static/img/fragment6/title1.png" class="img-title">
+                <p class="p-title mb-0">五十年資歷日系職人<br>工程師顧問 | 田中純夫</p>
+              </div>
+              <p class="line1 text-lg mb-2 px-1 px-md-5 text-center n-family pt-0 pt-md-5">
                 於日本竹中工務店服務38年，為亞昕建築導入真正日本工藝職人精神，細節精鑄，面面究極，從品質標準到施工監察，皆以最高規格嚴格要求</p>
             </div>
-            <div class="flex justify-center"> <img src="static/img/fragment6/子網團隊p1png.png" class="h-96" loading="lazy">
+            <div class="flex justify-center"> <img src="static/img/fragment6/子網團隊p1png.png" class="h-96 p-1 p-md-3"
+                loading="lazy">
             </div>
           </div>
         </swiper-slide>
-        <swiper-slide> <img src="static/img/fragment6/img4.jpg" class="w-full object-cover object-top"
-            loading="lazy"><span class="d3">漢宇雲森建築3D外觀合成示意圖
+        <swiper-slide class="w_md_90">
+          <img src="static/img/fragment6/img1.jpg" class="w-full object-cover object-top"><span class="d3">東京巨蛋實景修飾圖
           </span>
           <div class="grid grid-cols-3 py-24">
             <div class="col-span-2 flex flex-col justify-center items-center pd-lr">
-              <div class="flex justify-center mb-10"> <img src="static/img/fragment6/s_img2.png" width="650"> </div>
-              <div class="flex justify-center"> <img src="static/img/fragment6/title4.png" width="800"
-                  class="img-title">
-                <p class="p-title">台中都市空間設計大獎得主<br>建築師 | 許獻叡</p>
+              <div class="flex justify-center mb-6">
+                <img class="title_wid" src="static/img/fragment6/s_img1.png">
+                <!-- <img class="d-none d-md-block" src="static/img/fragment6/s_img1.png" width="650">
+                <img class="d-md-none" src="static/img/fragment6/s_img1.png" width="260"> -->
               </div>
-              <p class="text-lg mt-6 px-32 text-center n-family">多座都市空間設計大獎、中華建築金石獎的榮耀得主，為「亞昕一緻」創劃更多精彩不同的築景之藝。</p><br>
-            </div>
-            <div class="flex justify-center"> <img src="static/img/fragment6/子網團隊p2.jpg" class="h-96" loading="lazy">
-            </div>
-          </div>
-        </swiper-slide><swiper-slide> <img src="static/img/fragment6/img2.jpg"
-            class="w-full object-cover object-top"><span class="d3">精銳博公設實景
-          </span>
-          <div class="grid grid-cols-3 py-24">
-            <div class="col-span-2 flex flex-col justify-center items-center pd-lr">
-              <div class="flex justify-center mb-10"> <img src="static/img/fragment6/s_img3.png" width="650"><br> </div>
-              <div class="flex justify-center"> <img src="static/img/fragment6/title2.png" width="800"
-                  class="img-title">
-                <p class="p-title">全國室設 德國紅點金獎第一人<br>天坊設計 | 張清平</p>
+              <div class="flex justify-center"> <img src="static/img/fragment6/title1.png" class="img-title">
+                <p class="p-title mb-0 mb-md-1">五十年資歷日系職人<br>工程師顧問 | 田中純夫</p>
               </div>
-              <p class="text-lg mt-6 px-32 text-center n-family">
-                臺灣唯一連續12次進入「英國，安德馬丁室內設計年度獎」，以深度提煉的設計思考，忠實反應空間與使用者的內涵，將人與空間的價值形於外，賦予不一樣的體驗與感動。</p>
+              <p class="line1 text-lg mb-2 px-32 text-center n-family">
+                於日本竹中工務店服務38年，為亞昕建築導入真正日本工藝職人精神，細節精鑄，面面究極，從品質標準到施工監察，皆以最高規格嚴格要求</p>
             </div>
-            <div class="flex justify-center"> <img src="static/img/fragment6/子網團隊p3.jpg" class="h-96" loading="lazy">
-            </div>
-          </div>
-        </swiper-slide> <swiper-slide> <img src="static/img/fragment6/img3.jpg" class="w-full object-cover object-top"
-            loading="lazy"><span class="d3">雙橡園1617景觀實景
-          </span>
-          <div class="grid grid-cols-3 py-24">
-            <div class="col-span-2 flex flex-col justify-center items-center pd-lr">
-              <div class="flex justify-center mb-10"> <img src="static/img/fragment6/s_img4.png" width="650"> </div>
-              <div class="flex justify-center"> <img src="static/img/fragment6/title3.png" width="800"
-                  class="img-title">
-                <p class="p-title">國際級設計金獎大師<br>上境景觀 | 許富居</p>
-              </div>
-              <p class="text-lg mt-6 px-32 text-center n-family">德國紅點獎、美國MUSE白金獎、Good Design Award、IFLA APPME
-                Awards、義大利A’
-                Design金獎…大師精髓，世界榮譽肯定。</p><br>
-            </div>
-            <div class="flex justify-center"> <img src="static/img/fragment6/子網團隊p4.jpg" class="h-96" loading="lazy">
+            <div class="flex justify-center"> <img src="static/img/fragment6/子網團隊p1png.png" class="h-96 p-1 p-md-3"
+                loading="lazy">
             </div>
           </div>
         </swiper-slide>
@@ -781,12 +800,14 @@
             class=" text-[26px] font-koz">國際級飯店體系｜三十年跨國集團</span> </div>
       </div> -->
       <div class="px-[90px] mx-auto">
-        <div class="flex justify-center relative"> <img src="static/img/fragment7/img.jpg"
-            class="w-full object-cover object-top" loading="lazy"> <img src="static/img/fragment7/heading1.png"
-            class="title absolute left-[75px] top-[243px]" loading="lazy"> <img src="static/img/fragment7/heading2.png"
-            class="line1 absolute left-[75px] top-[544px]" loading="lazy"> </div>
-        <p class="text-center text-[28px] mt-8 mb-6 title">昕思維昕服務</p>
-        <p class="text-center text-lg line1 n-family">全面導入同步世界的細緻服務，注入飯店泳池森活的建案内涵，<br>以真正國際级飯店體系品牌，深刻洞悉生活至上的時代需求。</p>
+        <div class="flex justify-center relative">
+          <img src="static/img/fragment7/img.jpg" class="w-full object-cover object-top clothing_h" loading="lazy">
+          <img src="static/img/fragment7/heading1.png" class="title absolute left-[75px] top-[243px]" loading="lazy">
+          <img src="static/img/fragment7/heading2.png" class="line1 absolute left-[75px] top-[544px]" loading="lazy">
+        </div>
+        <p class="text-center mt-8 mb-6 title" style="font-size: 32px;">昕思維昕服務</p>
+        <p class="text-center text-lg line1 n-family">全面導入同步世界的細緻服務， <br class="d-md-none">
+          注入飯店泳池森活的建案内涵，<br>以真正國際级飯店體系品牌，深刻洞悉生活至上的時代需求。</p>
       </div>
     </section>
     <section class="w-full pt-[120px] pb-[210px] relative box8">
@@ -831,6 +852,18 @@
       2024 yeashin international development co. ltd</p>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <!-- <div class="flex justify-between items-center gap-x-3"> <span class="w-52 text-right">貴賓大名 VIP NAME</span>
+              <input class="flex-1" name="貴賓大名" required>
+            </div>
+            <div class="flex justify-between items-center gap-x-3"> <span class="w-52 text-right">聯絡電話 NUMBER</span>
+              <input type="tel" class="flex-1" name="聯絡電話" required>
+            </div>
+            <div class="flex justify-between items-center gap-x-3"> <span class="w-52 text-right">電子信箱 EMAIL</span>
+              <input type="email" class="flex-1" name="電子信箱" required>
+            </div>
+            <div class="flex justify-between items-center gap-x-3"> <span class="w-52 text-right">坪數需求 SIZE</span>
+              <input class="flex-1" name="坪數需求" required>
+            </div> -->
 </body>
 
 </html>
