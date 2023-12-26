@@ -560,6 +560,10 @@
     height: auto;
   }
 
+  .agree_text {
+    font-size: 1.5rem;
+  }
+
   @media screen and (max-width: 768px) {
     .skyline_text {
       font-size: 32px;
@@ -589,6 +593,10 @@
 
     .clothing_set2 {
       width: 50% !important;
+    }
+
+    .agree_text {
+      font-size: .8rem;
     }
   }
 
@@ -871,25 +879,19 @@
             <div class="text-center"> <span class="w-52 text-right text-left">貴賓大名 VIP NAME</span>
               <input class="text-left text-md-center" name="貴賓大名" required>
             </div>
-            <div class="text-center"> <span class="w-52 text-right text-left">貴賓大名 VIP NAME</span>
-              <input class="text-left text-md-center" name="貴賓大名" required>
+            <div class="text-center"> <span class="w-52 text-right text-left">聯絡電話 NUMBER</span>
+              <input class="text-left text-md-center" name="聯絡電話" type="tel" required>
             </div>
-            <div class="text-center"> <span class="w-52 text-right text-left">貴賓大名 VIP NAME</span>
-              <input class="text-left text-md-center" name="貴賓大名" required>
+            <div class="text-center"> <span class="w-52 text-right text-left">電子信箱 EMAIL</span>
+              <input class="text-left text-md-center" name="電子信箱" type="email" required>
             </div>
-            <div class="text-center"> <span class="w-52 text-right text-left">貴賓大名 VIP NAME</span>
-              <input class="text-left text-md-center" name="貴賓大名" required>
-            </div>
-            <div class="text-center"> <span class="w-52 text-right text-left">貴賓大名 VIP NAME</span>
-              <input class="text-left text-md-center" name="貴賓大名" required>
-            </div>
-            <div class="text-center"> <span class="w-52 text-right text-left">貴賓大名 VIP NAME</span>
-              <input class="text-left text-md-center" name="貴賓大名" required>
+            <div class="text-center"> <span class="w-52 text-right text-left">坪數需求 SIZE</span>
+              <input class="text-left text-md-center" name="坪數需求" required>
             </div>
 
             <label class="col-span-2 flex justify-center items-center gap-x-2 font-koz text-2xl"> <input type="checkbox"
                 required>
-              <span>本人已知悉並同意隱私權政策聲明事項</span> </label>
+              <span class="agree_text">本人已知悉並同意隱私權政策聲明事項</span> </label>
             <div class="col-span-2 flex justify-center"> <button
                 class="w-[444px] h-12 bg-[#7f7f7f] text-white tracking-widest">確認送出 SEND</button> </div>
           </div>
